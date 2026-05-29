@@ -19,7 +19,7 @@ class Player(pygame.sprite.Sprite):
         self.rect.y = y
 
         # Set the speed of the sprite movement property
-        self.speed = 5
+        self.speed = 0 - 10
 
     def update(self):
         # Basic logic to control handle movements for the sprite 
